@@ -8,7 +8,7 @@
         - Purple: Digital Outputs;
         - Red: Supply 5V;
         - Black: GND;
-    - Components with TAGs:
+    - Components:
     	- (04) Leds; 
         - (04) Resistors 100 Ohms;
         - (04) Resistors 10K Ohms;
@@ -57,7 +57,7 @@ void startSequence(){ //starting the sequence and turning ON/OFF sounds and leds
     	digitalWrite(arrayLeds[arraySequence[iCount]], HIGH); // LedOn;
     	delay(300);    	
     	digitalWrite(arrayLeds[arraySequence[iCount]], LOW); // LedOff;
-		delay(100);
+	delay(100);
   	}
 }
 
