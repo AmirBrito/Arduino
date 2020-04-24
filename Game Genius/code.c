@@ -10,8 +10,8 @@
         - Black: GND;
     - Components:
     	- (04) Leds; 
-        - (04) Resistors 100 Ohms;
-        - (04) Resistors 10K Ohms;
+        - (04) Resistors 500 Ohms; // Leds - Current protection; 
+        - (04) Resistors 10K Ohms; // Buttons - Pulldown current to ground;
         - (01) Buzzer;
         - (04) Buttons;
         - (01) Protoboard;
